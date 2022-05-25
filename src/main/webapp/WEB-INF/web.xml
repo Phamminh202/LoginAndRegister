@@ -13,6 +13,15 @@
         <url-pattern>/Login</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.t2010a.loginandregister.account.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>Register</servlet-name>
         <servlet-class>com.t2010a.loginandregister.account.RegisterServlet</servlet-class>
     </servlet>
